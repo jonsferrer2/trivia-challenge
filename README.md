@@ -47,9 +47,9 @@
 
 #### Running the Project
     
-* Development
+* Development:
     npm run dev
 
-* Production
+* Production:
     npm run build
     npm start
