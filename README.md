@@ -2,7 +2,7 @@
 
 * Clone the repository:
 
- - git clone <repository-url>
+    git clone https://github.com/jonsferrer2/trivia-challenge.git
  
 * Install dependencies:
 
