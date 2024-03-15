@@ -1,0 +1,51 @@
+body {
+    background: url(../../public/images/bg.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #085696;
+}
+
+.primary-button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: solid 2px #085696;
+    color: #085696;
+    padding: 5px 0;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    text-decoration: none;
+    color: #128df3;
+    border-bottom: solid 2px #128df3;
+}
+
+.primary-button:active {
+    text-decoration: none;
+    color: #143a58;
+    border-bottom: solid 2px #143a58;
+}
+
+.correct-answer {
+    color: #83db14;
+    align-self: center;
+    padding: 0 30px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.wrong-answer {
+    color: #e33131;
+    align-self: center;
+    padding: 0 30px;
+    margin-left: 25px;
+    font-size: 25px;
+}

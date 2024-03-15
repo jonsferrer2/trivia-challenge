@@ -1,0 +1,110 @@
+.card {
+    width: 400px;
+    min-width: 400px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.category {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.itemNumber {
+    margin-left: auto;
+    font-size: 14px;
+    margin: auto 18px 15px auto;
+    width: 70px;
+}
+
+.content {
+    margin: 0 20px;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+    min-height: 250px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contentText {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.btnTrue,
+.btnFalse {
+    padding: 10px 20px;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.btnTrue {
+    background-color: #4fbd1b;
+}
+
+.btnTrue:hover {
+    background-color: #398814;
+}
+
+.btnTrue:active {
+    background-color: #63b23e;
+}
+
+.btnFalse {
+    background-color: #e04e10;
+}
+
+.btnFalse:hover {
+    background-color: #a54015;
+}
+
+.btnFalse:active {
+    background-color: #c76237;
+}
+
+@media (min-width:577px) and (max-width: 768px) {
+    .card {
+        width: 470px;
+    }
+}
+
+@media (min-width:769px) {
+    .card {
+        width: 600px;
+    }
+}
