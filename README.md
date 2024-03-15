@@ -2,12 +2,12 @@
 
 * Clone the repository:
 
-    git clone https://github.com/jonsferrer2/trivia-challenge.git
+    - git clone https://github.com/jonsferrer2/trivia-challenge.git
  
 * Install dependencies:
 
-    cd trivia-challenge
-    npm install
+    - cd trivia-challenge
+    - npm install
 
 
 ## Project Structure
@@ -47,9 +47,9 @@
 
 #### Running the Project
     
-* Development:
-    npm run dev
+* Development
+    - npm run dev
 
-* Production:
-    npm run build
-    npm start
+* Production
+    - npm run build
+    - npm start
